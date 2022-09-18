@@ -1,0 +1,16 @@
+name: CustomShopUI
+main: SaltyPixelDevz\CustomShopUIv2\Shop
+version: 4.0.5
+api: [4.0.0]
+author: SaltyPixelDevz
+website: http://saltypixel.ga
+depend:
+- EconomyAPI
+commands:
+  shop:
+    description: "Mở Cửa Hàng Mua Đồ"
+    permission: shop.shop
+permissions:
+  shop.shop:
+    default: true
+    
